@@ -26,5 +26,6 @@ api.add_resource(Store, '/store/<string:name>')
 api.add_resource(StoreList, '/stores')
 
 if __name__ == '__main__':
+    from db impot db
     db.init_app(app)
-    app.run(port = 5002, debug=True)
+    app.run(port = 5000, debug=True)
